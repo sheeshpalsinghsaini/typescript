@@ -1,0 +1,17 @@
+# Union types :
+
+    let data = "typescript"
+
+    data  = 30  // can not do it 
+
+    ---------------
+    let data:any = "typescript"
+    data = 30     // we can do it. 
+
+    ---------------
+    let data:string|number = "TypeScripts"
+    data = 30 ;
+
+    //only accecpt string & number.
+
+    

@@ -1,0 +1,42 @@
+# Inheritance in typescript :
+    what is Inheritance
+    make a parent class 
+    make a child class 
+    inherit a class 
+
+
+--------------------------example of class 
+
+    class Child{
+        name : "sheeshpal singh"
+
+        getName()
+        {
+            return this.name;
+        }
+    }
+
+    let c1 = new Child();
+    console.log(c1.getName());
+
+    ------------------------------
+    class Parent{
+        name:string;
+
+        setName(name)
+        {
+            this.name = name;
+        }
+    }
+
+    class Child extends Parent{
+        getName():string 
+        {
+            return this.name;
+        }
+    }
+
+    let c1 = new Child();
+
+    c1.setName("Peter");
+    console.log(c1.getName());

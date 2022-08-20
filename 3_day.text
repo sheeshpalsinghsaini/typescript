@@ -1,0 +1,7 @@
+# first program in typescript.
+
+    file name :     app.ts 
+
+        run : tsc app.ts        : it will convert tsc to js .
+
+        

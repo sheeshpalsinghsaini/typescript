@@ -1,0 +1,9 @@
+
+
+for remove duplicate problem :
+    export {}       // file.tc 
+
+for auto update run file as :
+    tsc file.ts --watch 
+
+    

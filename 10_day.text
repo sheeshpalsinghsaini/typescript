@@ -1,0 +1,41 @@
+# Function in typescript :
+    -> Define a normal function 
+    -> Define function type 
+    -> Add params in function 
+    -> Define params type 
+    -> Optional params with type. 
+
+
+    function call(){
+        return 10+20;
+    }
+
+    console.log(call());
+    
+    -------------------
+    function call():number      //should be return number 
+    {
+        return 10+20;
+    }
+
+    console.log(call());
+
+    ------------------------
+    function call(a:number):number  //accecpt number, return number 
+    {
+        return a;
+    }
+    console.log(call(12)); 
+
+    ----------------------
+
+    function call(a:number, b?:number):number 
+    {
+        return b?a+b:a;
+    }
+    //b, may be or may not be.
+
+    console.log(call(10,20));
+    console.log(call(100));     //it will also work.
+
+    

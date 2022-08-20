@@ -1,0 +1,22 @@
+# What is TypeScript ?
+
+    * Short form is TS.
+    * TypeScript is a typed superset of javascript.
+        < all the javascript feature and some more add feature >
+    * Developed by Microsoft.
+    * Object oriented.
+
+    -> initial release in 1 October 2012.
+
+    Benefits of TypeScript :
+        1. Easy Code Mangement
+        2. Support ECMAscript
+        3. We can use data types, classes, interfaces etc.
+        
+
+
+    Prerequisite for TypeScript.
+
+        1. Node js and npm 
+        2. A modern code editor 
+        3. A basic idea aobut javascript.

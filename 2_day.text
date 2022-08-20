@@ -1,0 +1,7 @@
+# installation of TypeScript.
+
+    sudo npm install -g typescript 
+
+    tsc -v      //test the version of typescript.
+
+    

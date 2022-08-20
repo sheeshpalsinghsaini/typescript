@@ -1,0 +1,34 @@
+# Interface in typescript 
+
+    -> Why user interface
+    -> How to use interface
+    -> Interface example with object.
+
+    syntax :
+
+        interface interface_name {
+            property_name : data_type,
+            property_name : data_type,
+        }
+
+
+
+    example :
+
+        interface userType{
+            name : string,
+            age : number,
+            getName : ()=>string  
+        }
+
+        let users:userType = {
+            name : "abc",           //only accecpt string 
+            age : 30,                //only accept number 
+            getName : function(){
+                return "defg"
+            }
+        }
+
+
+        console.log(users);
+        console.log(users.getName());

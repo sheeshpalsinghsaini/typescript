@@ -1,0 +1,17 @@
+# Generics :
+    * What is Generics in TypeScript 
+    * Why we need it 
+    * Make a program with Generics 
+    * Make a program without Generics
+
+
+
+    function users<T>(data:T):T 
+    {
+        return data;
+    }
+
+    console.log(users("sheeshpal"));        //it will take all types of data.
+    console.log(users({name:"abc",age:30}))
+
+    

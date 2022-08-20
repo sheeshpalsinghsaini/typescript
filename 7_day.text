@@ -1,0 +1,47 @@
+# Object types :
+
+    -> default typed object 
+    -> update property 
+    -> add new property
+    -> define a custom type for object 
+    -> use any with object .
+
+    //default object 
+    let users = {
+        name : "bruce",
+        age : 30,
+        address : "USA"
+    }
+    users.name = 200; //can not do it, assume it as string. 
+
+    users.email = "abc@gmail.com"       //can not add new value. 
+
+    ------------------
+
+    //manually create 
+    
+    interface usersTyped{
+        name:string,
+        age:number,
+        address:string,
+    }
+
+    let users:usersTyped = {
+        name : "bruce",
+        age : 30,
+        address : "USA"
+    }
+
+    console.log(users);
+
+    -----------------------
+        =========== for any value 
+
+    let users:any = {
+        name : "bruce",
+        age : 30,
+        address : 'USA' 
+    }
+
+    users.name = 100;       //no error accecpt any value.
+    console.log(users);

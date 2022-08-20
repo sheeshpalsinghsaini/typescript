@@ -1,0 +1,83 @@
+# class in typescript :
+    -> Define a class 
+    -> Create a object for class 
+    -> Make property 
+    -> Make property 
+    -> Make function 
+    -> Define data type of function and property 
+    -> Define data type to params. 
+
+
+    //as per convension, should we use class name as file name.
+
+    class App{
+
+        name = "sheeshpal singh"
+
+        getName(){
+            console.log(this.name);
+        }
+    }
+
+    leta = new App();
+
+    a.getName();
+
+    ----------------------------
+    //create constructor
+
+     class App{
+
+        name = "sheeshpal singh"
+
+        constructor()
+        {
+            console.log("constrctor called..");
+        }
+        getName(){
+            console.log(this.name);
+        }
+    }
+
+    leta = new App();
+
+    a.getName();
+
+    -------------------------
+
+     class App{
+
+        name ;
+
+        constructor(name)
+        {
+            this.name = name;
+        }
+        getName(){
+            console.log(this.name);
+        }
+    }
+
+    leta = new App("sheeshpal singh");
+
+    a.getName();
+
+    ---------------------------
+
+    class App{
+
+        name:string ="abc";
+
+        constructor(name:string)
+        {
+            this.name = name;
+        }
+        getName():void
+        {
+            console.log(this.name);
+        }
+    }
+
+    leta = new App("sheeshpal singh");
+
+    a.getName();

@@ -1,0 +1,39 @@
+# enum 
+    is a set of values. 
+
+
+    example :
+
+        enum Days{
+            mon,tue,wed,thu,fir,sat,sun
+        }
+
+        let whichDay:Days;
+
+        whichDay = "test"       //will print error, type does not match.
+
+        whichDay = 1;   
+        whichDay = Days.mon;
+
+        --------------
+
+        enum Days{
+            mon="mon", tue="tue";
+        }
+
+        let whichDay:Days;
+        whichDay = Day.mon 
+
+        console.log(whichDay=='mon');
+
+        ---------------------------------------------
+         enum Days{
+            mon,tue,wed,thu=10,fir,sat,sun
+        }
+
+    function whichDay(day:Days)
+    {
+        return day;
+    }
+
+    console.log(whichDay(Days.mon));

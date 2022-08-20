@@ -1,0 +1,25 @@
+# Array in TypeScripts :
+    -> Array without Data Type 
+    -> Push and update array operations in TS
+    -> Mixed array.
+    -> Define array type. 
+
+
+
+    let data=['sheeshpal','abhay','ajay']
+    data.push(100);         //can not push no now 
+    console.log(data);
+
+
+    let data = ['abc','df',23,true] //mixed array 
+    //only accepts those types of value which is exist already. 
+
+    data.push(45);
+    
+
+
+    let data:string[] = ['abc','def','ghi']
+    data.push('peter');
+    console.log(data);
+
+    
